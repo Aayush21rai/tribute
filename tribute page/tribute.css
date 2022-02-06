@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+header h3{
+    /* transform: translate(42%, 0px); */
+}
+.container{
+    background-color: #f7f7f7;
+    height: 30rem;
+
+}
+.box{
+    width: 33rem;
+    height: 22rem;
+    /* border: 2px solid red; */
+    background-position: center;
+    /* background-image: url(https://i.postimg.cc/TwdV27YN/frontimg.jpg); */
+    margin: auto;
+}
+.box img{
+    height: 30rem;
+    width: 30rem;
+
+
+}
+.quotes{
+    margin: 162px 128px;
+    padding: 7px 2px;
+    font-family: 'Special Elite', cursive;
+}
+.heading{
+    margin: auto;
+    width: 10%;
+    font-size: 19px;
+    font-family: 'Merienda', cursive;
+   color:  #b7b7c1;
+}
+.heading::after{
+    content: '';
+    width: 127px;
+    height: 0px;
+    color: black;
+    border: 2px solid #000000;
+    position: absolute;
+    /* bottom: -11px; */
+    top: 64rem;}
+.heading::before{
+    content: '';
+    width: 127px;
+    height: 0px;
+    color: black;
+    border: 2px solid #000000;
+    position: absolute;
+    /* bottom: -11px; */
+    top: 68rem;
+}
+    
+    .gridq{
+        display: grid;
+        grid-template-columns: auto auto auto;
+       
+        font-family: 'Ubuntu', sans-serif;
+
+
+        grid-gap: 10px;
+        /* background-color: #2196F3; */
+        padding: 10px;
+        margin: 100px 25px;
+  /* margin: 100px 25px; */
+  /* grid-column: auto; */
+    }
+   
+    
+    .gridq  div:nth-child(1) {
+        background-image: url(https://i.postimg.cc/jjWLnwJ1/childhood.jpg);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 201px;
+        background-size: 428px 281px;
+        filter: grayscale(100%);
+    }
+    .gridq  div:nth-child(2) {
+        background-image: url(https://i.postimg.cc/fbNZvV3y/2000.jpg);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 201px;
+        background-size: 428px 281px;
+        filter: grayscale(100%);
+    }
+    .gridq  div:nth-child(3) {
+        background-image: url(https://i.postimg.cc/J4jRH3nv/5time.jpg);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 202px;
+        background-size: 100%;
+        background-size: 476px 242px;
+        filter: grayscale(100%);
+    }
+    .gridq  div:nth-child(4) {
+        background-image: url(https://i.postimg.cc/kXyXhFm8/marraige.jpg) ;
+        background-size: 413px 242px;
+        
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 201px;
+        width: 28rem;
+        filter: grayscale(100%);
+    }
+    .gridq  div:nth-child(5) {
+        background-image: url(https://i.postimg.cc/DwpYTmQw/aiba.webp);
+        text-align: center;
+        padding: 20px 0;
+        background-size: 476px 242px;
+        font-size: 30px;
+        height: 201px;
+        width: 28rem;
+        filter: grayscale(100%);
+    }
+    .gridq  div:nth-child(6) {
+        background-image: url(https://i.postimg.cc/nhMMzwmG/asian.jpg);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 201px;
+        background-size: 476px 242px;
+        width: 22rem;
+        filter: grayscale(100%);
+    }
+    .gridq  div:nth-child(7) {
+        background-image: url(https://i.postimg.cc/W1bS4rsP/2010.jpg);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 201px;
+        background-size: 476px 242px;
+        filter: grayscale(100%);
+    }
+    .gridq  div:nth-child(8) {
+        background-image: url(https://i.postimg.cc/8cS9X5MP/2012.jpg);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 201px;
+        background-size: 448px 242px;
+        filter: grayscale(100%);
+    }
+    .gridq  div:nth-child(9) {
+        background-image: url(https://i.postimg.cc/yNw8dm4Q/2014.jpg);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 201px;
+        background-size: 352px 242px;
+        filter: grayscale(100%);
+
+    }
+    
+    .item1::after{
+        content: '1983';
+        text-align: center;
+        top: 60px;
+    position: relative;
+    color: white;
+    border: 2px solid white;
+    
+    }
+    .item1:hover::after {
+        content: 'Legend is born';
+        /* color: blanchedalmond; */
+        position: relative;
+        /* top: 50px; */
+        /* transition: all 1s ease-in; */
+        /* filter: blur(8px); */
+font-weight: bold;
+
+    }
+    .item2::after{  content: '2000';
+        text-align: center;
+        top: 60px;
+    position: relative;
+    color: white;
+    border: 2px solid white;
+
+    }
+    .item3::after{ color: white;
+        border: 2px solid white;
+        content: '2000-2005';
+        text-align: center;
+        top: 60px;
+    position: relative;
+
+    }
+    .item4::after{ color: white;
+        border: 2px solid white;
+        content: '2005';
+        text-align: center;
+        top: 60px;
+    position: relative;
+    }
+    .item5::after{ color: white;
+        border: 2px solid white;
+        content: '2001-2006';
+        text-align: center;
+        top: 60px;
+    position: relative;
+     }
+    .item6::after{ color: white;
+        border: 2px solid white;
+        content: '2008';
+        text-align: center;
+        top: 60px;
+    position: relative;
+
+     }
+    .item7::after{ color: white;
+        border: 2px solid white;
+        content: '2010';
+        text-align: center;
+        top: 60px;
+    position: relative;        
+
+
+    }
+    .item8::after{ color: white;
+        border: 2px solid white;
+        content: '2012';
+        text-align: center;
+        top: 60px;
+    position: relative; 
+
+    }
+    .item9::after{ color: white;
+        border: 2px solid white;
+        content: '2014';
+        text-align: center;
+        top: 60px;
+    position: relative; 
+
+    }
+
+    .item2:hover::after{
+        content: '2000 when she won the Best Boxer Award at the First State Level Invitation at the women’s boxing championship in Manipur';
+        color: blanchedalmond;
+        position: relative;
+        /* top: 50px; */
+        /* transition: all 1s ease-in */
+    }
+    .item3:hover::after{
+        content: 'she won a total of five National Championships from 2000 to 2005';
+        color: blanchedalmond;
+        position: relative;
+        /* top: 50px; */
+        /* transition: all 1s ease-in */
+    }
+    .item4:hover::after{
+        content: 'tying the knot  with K Onler Kom';
+        color: blanchedalmond;
+        position: relative;
+        /* top: 50px; */
+        /* transition: all 1s ease-in */
+    }
+    .item5:hover::after{
+        content: ' she won the AIBA world boxing championship thrice in 2002, 2005 and 2006, and came second in 2001.';
+        color: blanchedalmond;
+        position: relative;
+        /* top: 50px; */
+        /* transition: all 1s ease-in */
+    }
+    .item6:hover::after{
+        content: ' In 2008, she participated at the Asian Women’s Boxing Championship in India where she won a silver medal. The same year she boxed at the AIBA Women’s World Boxing Championship in China where she earned the Gold medal';
+        color: blanchedalmond;
+        position: relative;
+        
+        /* transition: all 1s ease-in */
+        top: 1px;
+    font-size: 18px;
+    }
+    .item7:hover::after{
+        content: ' In Kazakhstan Mary won the gold medal at the Asian Women’s Boxing Championship in 2010. Then she proceeded to Barbados to register a career milestone—her fifth consecutive gold at the AIBA Womens World Boxing Championship';
+        color: blanchedalmond;
+        position: relative;
+        /* top: 50px; */
+        /* transition: all 1s ease-in */
+        top: 1px;
+    font-size: 18px;
+    }
+    .item8:hover::after{
+        content: 'the only Indian woman boxer who managed to qualify for the 2012 Summer Olympics where she also won a Bronze Medal.';
+        color: blanchedalmond;
+        position: relative;
+        /* top: 50px; */
+        /* transition: all 1s ease-in */
+    }
+    .item9:hover::after{
+        content: 'In 2014 Asian Games, held in Incheon, South Korea, she won a Gold Medal in Flyweight category.';
+        color: blanchedalmond;
+        position: relative;
+        /* top: 50px; */
+        /* transition: all 1s ease-in */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .gridq  div:hover{
+        background-color: blue;
+        opacity: 1;
+        transition: all 2s ease-in;
+    } */
+    .square{
+        width: 126px;
+        left: -27px;
+        position: relative;
+        height: 112px;
+        /* border: 2px solid black; */
+        border-radius: 50%;
+        /* font-family: 'Special Elite', cursive; */
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 44px;
+    }
+    .line{
+        font-family: 'Special Elite', cursive;
+        /* margin: 73px; */
+        padding: 82px;
+        padding-bottom: 16px;
+    }
+    .square img{
+        height: 173px;
+        position: absolute;
+        width: 221px;
+        border-radius: 48%;
+    }
+    footer
+    {
+        background-color: #f7f7f7;
+        /* margin: 79px 31px; */
+        /* height: 100vh; */
+        /* padding: 23px; */
+        margin-bottom: -21px;
+        width: 100%;
+        height: 72px;
+    }
+    footer h3{
+        position: absolute;
+        align-items: center;
+        left: 33rem;
+        font-family: 'Special Elite', cursive;
+    }
